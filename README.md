@@ -20,7 +20,7 @@ Includes jQuery 3.3.1, Bootstrap 4, Google/Typekit webfont loader, Font Awesome 
 ---
 title: My Title
 description: My Description
-share-image: max-wirt.jpg
+share-image: sample.jpg
 ---
 ```
 
@@ -29,6 +29,8 @@ share-image: max-wirt.jpg
 
 #### video.html
 
-Use `{% include video.html ratio="16by9" url="https://www.youtube.com/embed/Sjx9oSJDAVQ" %}` for responsive video embeds.
+Use `{% include youtube-video.html ratio="16by9" id="Sjx9oSJDAVQ" %}` for responsive YouTube video embeds.
 
-Works for YouTube and Vimeo videos. `ratio` is the aspect ratio of your video. Can be "1by1", "4by3", "16by9", or "21by9". `url` is the url in the embed code for the video.
+Use `{% include vimeo-video.html ratio="4by3" id="6759134" %}` for responsive Vimeo video embeds.
+
+`ratio` is the aspect ratio of your video. Can be "1by1", "4by3", "16by9", or "21by9". `id` is the id associated with the video in the video's url.

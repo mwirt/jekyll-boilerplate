@@ -1,5 +1,5 @@
 WebFont.load({
     google: {
-      families: ['Droid Sans', 'Droid Serif']
+      families: ['IBM Plex Sans', 'IBM Plex Mono']
     }
   });
