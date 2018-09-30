@@ -27,7 +27,7 @@ share-image: sample.jpg
 ## Includes of note
 
 
-#### video.html
+#### youtube-video.html & vimeo-video.html
 
 Use `{% include youtube-video.html ratio="16by9" id="Sjx9oSJDAVQ" %}` for responsive YouTube video embeds.
 
