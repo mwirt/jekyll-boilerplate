@@ -27,10 +27,10 @@ share-image: sample.jpg
 ## Includes of note
 
 
-#### youtube-video.html & vimeo-video.html
+#### youtube.html & vimeo.html
 
-Use `{% include youtube-video.html ratio="16by9" id="Sjx9oSJDAVQ" %}` for responsive YouTube video embeds.
+Use `{% include youtube.html ratio="16by9" id="Sjx9oSJDAVQ" %}` for responsive YouTube video embeds.
 
-Use `{% include vimeo-video.html ratio="4by3" id="6759134" %}` for responsive Vimeo video embeds.
+Use `{% include vimeo.html ratio="4by3" id="6759134" %}` for responsive Vimeo video embeds.
 
 `ratio` is the aspect ratio of your video. Can be "1by1", "4by3", "16by9", or "21by9". `id` is the id associated with the video in the video's url.
